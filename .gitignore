@@ -1,0 +1,81 @@
+# Fichiers de base Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Environnements virtuels
+env/
+venv/
+ENV/
+ENV.bak/
+*.env
+
+# Fichiers et dossiers créés par Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs et fichiers de débogage
+*.log
+*.pot
+*.pyc
+*.coverage
+*.cover
+*.log
+*.out
+*.pid
+*.gz
+*.sql
+*.sqlite3
+*.db
+
+# Dossiers de migration Django
+**/migrations/
+
+# Fichiers de configuration et clés secrètes
+*.env
+.env.local
+.env.dev
+.env.production
+.env.staging
+.env.*
+
+# Fichiers SQLite (si vous utilisez SQLite pour le développement)
+db.sqlite3
+*.sqlite3
+
+# Dossiers de statiques générés
+staticfiles/
+media/
+
+# Node.js (si vous avez des dépendances npm ou yarn)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# JetBrains (PyCharm) IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Fichiers de test coverage
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+toxic-outputs.xml
+junit-*.xml
+
+# Autres fichiers et dossiers courants
+*.tmp
+*.temp
+.DS_Store
